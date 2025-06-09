@@ -1,16 +1,22 @@
 # apicoinmarketcap_1
 
-A new Flutter project.
+Aplicativo desenvolvido em Flutter que consome a API da CoinMarketCap para listar criptomoedas. 
+O projeto foi desenvolvido com foco na arquitetura MVVM e segue boas práticas de desenvolvimento mobile.
 
-## Getting Started
+Funcionalidades:
+- Listagem de criptomoedas com nome, símbolo e valor de mercado;
+- Interface responsiva e intuitiva;
+- Atualização dinâmica dos dados via API;
+- Arquitetura organizada e escalável utilizando o padrão MVVM.
 
-This project is a starting point for a Flutter application.
+Tecnologias Utilizadas:
+- Flutter (Dart);
+- HTTP package para requisições REST;
+- Provider (ou outro gerenciador de estado, conforme escolhido);
+- CoinMarketCap API.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Como rodar o projeto:
+- Clone o repositório;
+- Instale as dependências ('flutter pub get');
+- Configure sua chave da API CoinMarketCap (Certifique-se de ter uma chave de API válida);
+- Rode o aplicativo ('flutter run').
